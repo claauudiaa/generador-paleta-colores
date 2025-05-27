@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Generador de colores</title>
+    <link rel="stylesheet" href="assets/estilos/estilos.css">
+    <script src="assets/scripts/scripts.js"></script>
+    <link rel="stylesheet" href="assets/fontawesome-free-5.15.4-web/css/all.css">
+</head>
+
+<body onload="fInicio()">
+    <header>
+        <h1>GENERADOR DE COLORES</h1>
+    </header>
+    <section>
+        <div id="div_colores">
+            <div id="div_color_1">
+                <div class="iconos">
+                    <i class="fas fa-clipboard" onclick="fCopiar('0')" title="Copiar al portapapeles"></i>
+                    <i class="fas fa-lock-open" onclick="fBloquear('0')" title="Bloquear color"></i>
+                </div>
+                <div class="div_hex"></div>
+            </div>
+            <div id="div_color_2">
+                <div class="iconos">
+                    <i class="fas fa-clipboard" onclick="fCopiar('1')" title="Copiar al portapapeles"></i>
+                    <i class="fas fa-lock-open" onclick="fBloquear('1')" title="Bloquear color"></i>
+                </div>
+                <div class="div_hex"></div>
+            </div>
+            <div id="div_color_3">
+                <div class="iconos">
+                    <i class="fas fa-clipboard" onclick="fCopiar('2')" title="Copiar al portapapeles"></i>
+                    <i class="fas fa-lock-open" onclick="fBloquear('2')" title="Bloquear color"></i>
+                </div>
+                <div class="div_hex"></div>
+            </div>
+            <div id="div_color_4">
+                <div class="iconos">
+                    <i class="fas fa-clipboard" onclick="fCopiar('3')" title="Copiar al portapapeles"></i>
+                    <i class="fas fa-lock-open" onclick="fBloquear('3')" title="Bloquear color"></i>
+                </div>
+                <div class="div_hex"></div>
+            </div>
+            <div id="div_color_5">
+                <div class="iconos">
+                    <i class="fas fa-clipboard" onclick="fCopiar('4')" title="Copiar al portapapeles"></i>
+                    <i class="fas fa-lock-open" onclick="fBloquear('4')" title="Bloquear color"></i>
+                </div>
+                <div class="div_hex"></div>
+            </div>
+        </div>
+    </section>
+    <nav>
+        <input type="button" value="Cambiar colores" id="boton_cambio" onclick="fCambiar()">
+    </nav>
+    <footer>&copy;Claudia Candelas Oviedo</footer>
+</body>
+
+</html>
